@@ -1,0 +1,152 @@
+ header { 
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     align-content: flex-start;
+     flex-direction: column;
+     background-size: cover;
+     max-height: inherit;
+     max-width: inherit;
+     background: rgba(119, 75, 171, 1);
+}
+
+.upbar{
+    background: rgba(119, 75, 171, 1);
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    align-content: center;
+    justify-content:space-around;
+   
+
+    
+}
+.titulo{
+    color:white;
+    margin-bottom: 40px;
+    font:30px 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#separador{
+    min-width: 450px;
+    
+}
+.titulo1{
+    color: rgba(119, 75, 171, 1);
+    margin-bottom: 40px;
+    font:30px 'Oswald', sans-serif;
+    text-align: center;
+}
+p{
+    font:18px  'PT Sans Narrow';
+}
+  .nav { 
+      display: flex; 
+      flex-wrap: nowrap;
+      grid-row: auto;
+    
+}
+
+  .infoCreadores { 
+      text-align: left;
+}
+.logo{
+    display: flex; 
+      flex-wrap: nowrap;
+    color: white;
+     
+}
+.seccion{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    color: white;
+    background: rgba(119, 75, 171, 1);
+}
+button{
+    padding:5px;
+    font:  18px  'PT Sans Narrow';
+    color: rgba(119, 75, 171, 1);
+    background: rgba(255,255,255,1);
+    border-radius: 5px;
+    min-width: 150px;
+    min-height: 50px;;
+    
+}
+.seccion1{
+    padding: 25px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    text-align:left;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    color: white;
+    background: rgba(255, 255, 255, 1);
+}
+
+#sep{
+    min-width: 200px;
+}
+
+#parrafo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#ejemplo{
+    color: black;
+}
+.parrafo{
+    max-width:700px;
+}
+
+
+
+.imagen{
+    display: flex; 
+    flex-wrap: nowrap;
+    grid-row: auto;
+    justify-content:center; 
+    width:100%;
+   
+}
+.banner{
+    width: 100%
+}
+#dld{
+    font:  18px  'PT Sans Narrow';
+    color: rgba(255,255,255,1);
+    background: rgba(119, 75, 171, 1);
+    position: absolute;
+    align-self:center;
+    margin-top: 170px;
+    min-height: 70px;
+    min-width: 200px;
+    
+}
+
+nav{
+     display: flex; 
+      flex-wrap: nowrap;
+
+}
+h2{
+    font:30px 'Oswald', sans-serif;
+}
+
+
+a{
+    color: white;
+font:18px 'Oswald', sans-serif;
+    margin: 10px;
+}
